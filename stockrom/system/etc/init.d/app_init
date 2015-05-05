@@ -1,0 +1,10 @@
+#!/system/bin/sh
+if [ -f "/data/app/init.done" ];  then
+  echo 0
+else  
+  busybox cp /system/usr/partner/baiduappsearch.apk /data/app/baiduappsearch.apk
+  busybox cp /system/usr/partner/ZAKER.apk /data/app/ZAKER.apk
+  busybox cp /system/usr/partner/zmappstore.apk /data/app/zmappstore.apk
+  busybox cp /system/usr/partner/BaiduMap.apk /data/app/BaiduMap.apk
+  busybox touch /data/app/init.done
+fi

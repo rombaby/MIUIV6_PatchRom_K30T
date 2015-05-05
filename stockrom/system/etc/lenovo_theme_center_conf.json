@@ -1,0 +1,101 @@
+{
+  "themecenter_configs": [
+  
+    { 
+      "config_category": "system_info", 
+      "config_packagename": "com.lenovo.theme.bigtheme_classic", 
+      "config_current_package_name": "com.lenovo.theme.bigtheme_classic",
+      "config_enable": "true",
+      "config_online_enable": "true"
+    },
+    
+    { 
+      "config_category": "launcher", 
+      "config_packagename": "com.lenovo.launcher.theme.mirage", 
+      "config_current_package_name": "com.lenovo.launcher.theme.mirage",
+      "config_enable": "true", 
+      "config_online_enable": "true"
+    },
+
+    { 
+      "config_category": "wallpaper",
+      "config_enable": "true", 
+      "config_online_enable": "true"
+    },
+    
+    { 
+      "config_category": "lockscreen_wallpaper",
+      "config_enable": "true", 
+      "config_online_enable": "true"
+    },
+    
+    {
+      "config_category": "bootshut", 
+      "config_packagename": "com.lenovo.bootshut.lenovodefault", 
+      "config_current_package_name": "com.lenovo.bootshut.lenovodefault",
+      "config_enable": "true", 
+      "config_online_enable": "true",
+      "config_boot_mp4": "start.mp4",
+      "config_shut_mp4": "poweroff.mp4"
+    },
+    
+    {
+      "config_category": "font",
+      "config_packagename": "com.lenovo.font.theme.lenovodefault", 
+      "config_current_package_name": "com.lenovo.font.theme.lenovodefault",
+      "config_enable": "true", 
+      "config_online_enable": "true",
+      "config_font_eng": "FangZhengLTH.ttf",
+      "config_font_zh_rcn": "FangZhengLTH.ttf",
+      "config_font_zh_rtw": "FangZhengLTH.ttf"
+    },
+    
+    { 
+      "config_category": "systemwidget", 
+      "config_packagename": "lenovo", 
+      "config_current_package_name": "lenovo",
+      "config_enable": "true",
+      "config_online_enable": "true"
+    },
+    
+    { 
+      "config_category": "systemanim", 
+      "config_packagename": "com.lenovo.systemanim.theme.def", 
+      "config_current_package_name": "com.lenovo.systemanim.theme.def",
+      "config_enable": "true",
+      "config_online_enable": "true"
+    },
+    
+    { 
+      "config_category": "ideafriend", 
+      "config_packagename": "com.lenovo.ideafriend", 
+      "config_current_package_name": "com.lenovo.ideafriend",
+      "config_enable": "true",
+      "config_online_enable": "true"
+    },
+
+    { 
+      "config_category": "systemui", 
+      "config_packagename": "com.android.systemui", 
+      "config_current_package_name": "com.android.systemui",
+      "config_enable": "true", 
+      "config_online_enable": "true"
+    },
+
+    { 
+      "config_category": "callscreen", 
+      "config_packagename": "com.android.phone", 
+      "config_current_package_name": "com.android.phone",
+      "config_enable": "true", 
+      "config_online_enable": "true"
+    },
+
+    { 
+      "config_category": "lockscreen", 
+      "config_packagename": "com.lenovo.lockscreen.theme.mirage", 
+      "config_current_package_name": "com.lenovo.lockscreen.theme.mirage",
+      "config_enable": "true", 
+      "config_online_enable": "true"
+    }
+  ]
+}

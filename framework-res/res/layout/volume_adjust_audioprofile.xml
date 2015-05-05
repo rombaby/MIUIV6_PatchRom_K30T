@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/visible_panel" android:background="@drawable/uirom_dialog_full_holo_light" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/slider_group" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="top" android:id="@id/expand_button_divider" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:src="?dividerVertical" android:scaleType="fitXY" />
+            <ImageView android:layout_gravity="center" android:id="@id/expand_button" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:src="@drawable/ic_sysbar_quicksettings" />
+        </LinearLayout>
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/divider_horizontal_bright" android:scaleType="fitXY" />
+        <LinearLayout android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textSize="12.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/audioprofile_silent" android:background="@color/transparent" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="50.0dip" android:minHeight="50.0dip" android:text="@string/audioprofile_silent_text" android:drawableTop="@drawable/btn_vp_audioprofile_background_silent" />
+            <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <Button android:textSize="12.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/audioprofile_vibration" android:background="@color/transparent" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="50.0dip" android:minHeight="50.0dip" android:text="@string/audioprofile_metting_text" android:drawableTop="@drawable/btn_vp_audioprofile_background_vibration" />
+            <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <Button android:textSize="12.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/audioprofile_general" android:background="@color/transparent" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="50.0dip" android:minHeight="50.0dip" android:text="@string/audioprofile_general_text" android:drawableTop="@drawable/btn_vp_audioprofile_background_general" />
+            <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <Button android:textSize="12.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/audioprofile_outdoor" android:background="@color/transparent" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="50.0dip" android:minHeight="50.0dip" android:text="@string/audioprofile_outdoor_text" android:drawableTop="@drawable/btn_vp_audioprofile_background_outdoor" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
